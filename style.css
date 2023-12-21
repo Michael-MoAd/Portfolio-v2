@@ -1,0 +1,66 @@
+/* * {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   cursor: default;
+   border: 0.1px solid red;
+} */
+
+/* General */
+
+html {
+   scroll-behavior: smooth;
+   cursor: default;
+}
+
+a:hover {
+   cursor: crosshair;
+}
+
+p {
+   color: antiquewhite;
+}
+
+body {
+   background-color: grey;
+   background-image: url(assets/images/space-wallpaper.jpg);
+   background-repeat: repeat-y;
+   background-position-x: center;
+   background-size: cover;
+}
+
+.navbg {
+   background-image: url(assets/images/space-wallpaper.jpg);
+   background-repeat: repeat-y;
+   background-position-x: center;
+   background-size: cover;
+}
+
+.sectionpad {
+   padding-top: 150px;
+}
+
+/* Add this CSS in your style.css or within a <style> tag in your HTML */
+@media (max-width: 768px) {
+   /* Adjust the height and overflow for smaller screens */
+   .project-cards {
+       height: auto; /* Adjust the height as needed */
+       max-height: 90vh; /* Set a maximum height if necessary */
+       overflow-y: scroll; /* Enable vertical scrolling */
+   }
+   .content-mtop{
+      margin-top: -100px;
+   }
+
+}
+
+@media (max-width: 992px) {
+   /* Adjust the height and overflow for smaller screens */
+   .titleh{
+      height: 55px;
+   }
+
+  
+   
+}
+
