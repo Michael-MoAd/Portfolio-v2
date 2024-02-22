@@ -30,14 +30,21 @@ body {
 }
 
 .navbg {
-   background-image: url(assets/images/space-wallpaper.jpg);
-   background-repeat: repeat-y;
-   background-position-x: center;
-   background-size: cover;
+   background: rgba( 9, 68, 176, 0.05 );
+   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+   backdrop-filter: blur( 7px );
+   -webkit-backdrop-filter: blur( 7px );
+   border-radius: 10px;
+   border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
 .sectionpad {
    padding-top: 150px;
+}
+
+.icons {
+   height: 100px;
+   width: 100px;
 }
 
 /* Add this CSS in your style.css or within a <style> tag in your HTML */
@@ -59,8 +66,6 @@ body {
    .titleh{
       height: 55px;
    }
-
-  
    
 }
 
